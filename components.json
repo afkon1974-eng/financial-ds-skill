@@ -1,0 +1,780 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": {
+    "manifest": "component-manifest.json",
+    "manifest_updated_at": "2026-11-11"
+  },
+  "totals": {
+    "components": 74,
+    "statuses": {
+      "stable": 59,
+      "in-progress": 12,
+      "planned": 3
+    },
+    "preview_pages": 62,
+    "component_pages": 38,
+    "foundation_pages": 24
+  },
+  "statuses": {
+    "stable": "Построен, протестирован, готов к использованию в экранах",
+    "in-progress": "Токены созданы, Figma-компонент в процессе сборки",
+    "planned": "Задокументирован в 03_Components, не построен"
+  },
+  "components": [
+    {
+      "name": "ActionToast",
+      "status": "stable",
+      "figma_page": "Feedback",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/action-toast.html",
+      "specDir": null
+    },
+    {
+      "name": "Alert",
+      "status": "stable",
+      "figma_page": "Feedback",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/alert.html",
+      "specDir": null
+    },
+    {
+      "name": "AutoComplete",
+      "status": "in-progress",
+      "figma_page": "↳ Fields",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/auto-complete.html",
+      "specDir": null
+    },
+    {
+      "name": "Avatar",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/avatar.html",
+      "specDir": null
+    },
+    {
+      "name": "AvatarGroup",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null,
+      "consumer_note": "Overlap is a negative margin, not a flex gap — a parent that overrides margins will break the stack."
+    },
+    {
+      "name": "AvatarPair",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null,
+      "consumer_note": "A tile the size of a single avatar holding two smaller circles; it is not a two-item AvatarGroup."
+    },
+    {
+      "name": "Badge/Soft",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null,
+      "consumer_note": "Use the high-contrast variant when the badge sits on a surface of the same neutral tone, otherwise it disappears into it."
+    },
+    {
+      "name": "Badge/Solid",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null,
+      "consumer_note": "Static: no interactive states, and high contrast does not apply — the solid fill is already the accent."
+    },
+    {
+      "name": "Breadcrumbs",
+      "status": "stable",
+      "figma_page": "Navigation",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/breadcrumbs.html",
+      "specDir": null
+    },
+    {
+      "name": "Button/Ghost",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Button/Outline",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Button/Solid",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Buttons Group",
+      "status": "stable",
+      "figma_page": "Composite",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Calendar",
+      "status": "stable",
+      "figma_page": "Forms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/calendar.html",
+      "specDir": "components/Calendar"
+    },
+    {
+      "name": "Card",
+      "status": "in-progress",
+      "figma_page": "↳ Card",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/card.html",
+      "specDir": null
+    },
+    {
+      "name": "Check",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": false,
+      "hasSitePage": false,
+      "hasSpec": false,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Checkbox",
+      "status": "stable",
+      "figma_page": "Forms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/checkbox.html",
+      "specDir": "components/Checkbox"
+    },
+    {
+      "name": "Checkbox Group",
+      "status": "planned",
+      "figma_page": "Forms",
+      "hasStories": false,
+      "hasSitePage": false,
+      "hasSpec": false,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Chip/Outline",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null,
+      "consumer_note": "Default is transparent with a stroke only; a fill appears in the active and active-hover states."
+    },
+    {
+      "name": "Chip/Soft",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null,
+      "consumer_note": "Selecting a chip swaps the fill to the selected ramp; the counter badge is not shipped yet."
+    },
+    {
+      "name": "ChipGroup",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null,
+      "consumer_note": "Selection lives in the group, not in each chip: single = radio logic, multiple = checkbox logic. The «All» chip (selectAll) belongs only to a filter group with single selection."
+    },
+    {
+      "name": "Collapse",
+      "status": "stable",
+      "figma_page": "Feedback",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/collapse.html",
+      "specDir": null
+    },
+    {
+      "name": "DataItem",
+      "status": "stable",
+      "figma_page": "Molecules",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/data-item.html",
+      "specDir": null,
+      "consumer_note": "Five variants, not six: a tag-type cell has no badge, so the tag + bottom-label combination does not exist."
+    },
+    {
+      "name": "Date Picker",
+      "status": "stable",
+      "figma_page": "Forms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null,
+      "consumer_note": "Wraps Calendar in a portal popup: opens on click, Enter or Space, closes on Escape or an outside click. A second click swaps the range ends when the end date precedes the start."
+    },
+    {
+      "name": "Divider/Horizontal",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null,
+      "consumer_note": "Static separator. Horizontal and vertical are separate components, not an orientation prop."
+    },
+    {
+      "name": "Divider/Vertical",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null,
+      "consumer_note": "Same as the horizontal divider, but the padding applies left and right."
+    },
+    {
+      "name": "DocumentCard",
+      "status": "in-progress",
+      "figma_page": "↳ Card",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/document-card.html",
+      "specDir": null
+    },
+    {
+      "name": "Drawer",
+      "status": "planned",
+      "figma_page": "Drawer/BottomSheet",
+      "hasStories": false,
+      "hasSitePage": false,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "DropdownMenu",
+      "status": "stable",
+      "figma_page": "Composite",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Input",
+      "status": "stable",
+      "figma_page": "Forms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/input.html",
+      "specDir": "components/Input"
+    },
+    {
+      "name": "Input Password",
+      "status": "stable",
+      "figma_page": "Forms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "InputAmount",
+      "status": "in-progress",
+      "figma_page": "↳ Fields",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/input-amount.html",
+      "specDir": null
+    },
+    {
+      "name": "InputLabelIn",
+      "status": "stable",
+      "figma_page": "Forms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": "components/InputLabelIn",
+      "consumer_note": "Floating-label field: the label moves inside on focus and stays there while the field is filled. Use it instead of the plain input when vertical space is tight."
+    },
+    {
+      "name": "InputMask",
+      "status": "in-progress",
+      "figma_page": "↳ Fields",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/input-mask.html",
+      "specDir": null
+    },
+    {
+      "name": "InputNumber",
+      "status": "in-progress",
+      "figma_page": "↳ Fields",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/input-number.html",
+      "specDir": null
+    },
+    {
+      "name": "InputSearch",
+      "status": "stable",
+      "figma_page": "Composite",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/input-search.html",
+      "specDir": null
+    },
+    {
+      "name": "Link text",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "ListItem",
+      "status": "in-progress",
+      "figma_page": "↳ Data Item",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": false,
+      "sitePage": "preview/list-item.html",
+      "specDir": null
+    },
+    {
+      "name": "Modal",
+      "status": "stable",
+      "figma_page": "Feedback",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/modal.html",
+      "specDir": "components/Modal"
+    },
+    {
+      "name": "MultiSelect",
+      "status": "stable",
+      "figma_page": "Forms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Notification",
+      "status": "stable",
+      "figma_page": "Feedback",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/notification.html",
+      "specDir": "components/Notification"
+    },
+    {
+      "name": "Pagination",
+      "status": "stable",
+      "figma_page": "Navigation",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/pagination.html",
+      "specDir": null
+    },
+    {
+      "name": "Popover",
+      "status": "stable",
+      "figma_page": "Feedback",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/popover.html",
+      "specDir": null,
+      "consumer_note": "A panel, not an opening mechanism: anchoring comes from the shared anchored-popover hook, so the trigger and placement are the caller's to wire."
+    },
+    {
+      "name": "ProgressBar",
+      "status": "stable",
+      "figma_page": "Feedback",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/progress-bar.html",
+      "specDir": "components/ProgressBar"
+    },
+    {
+      "name": "Radio",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": false,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/radio.html",
+      "specDir": null
+    },
+    {
+      "name": "Radiobutton",
+      "status": "stable",
+      "figma_page": "Forms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/radiobutton.html",
+      "specDir": "components/Radiobutton"
+    },
+    {
+      "name": "Radiobutton Group",
+      "status": "planned",
+      "figma_page": "Forms",
+      "hasStories": false,
+      "hasSitePage": false,
+      "hasSpec": false,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Scrollbar",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/scrollbar.html",
+      "specDir": null,
+      "consumer_note": "Styling for a scrollable container, not a widget: it paints the browser's native scrollbar. Width is honoured by WebKit and Chromium; other engines keep their own scrollbar."
+    },
+    {
+      "name": "Select Control",
+      "status": "stable",
+      "figma_page": "Forms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "SelectField",
+      "status": "stable",
+      "figma_page": "Composite",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/select-field.html",
+      "specDir": null
+    },
+    {
+      "name": "SidebarMenu",
+      "status": "in-progress",
+      "figma_page": "↳ Dropdown menus",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/sidebar-menu.html",
+      "specDir": null
+    },
+    {
+      "name": "Skeleton",
+      "status": "stable",
+      "figma_page": "↳ Skeleton",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/skeleton.html",
+      "specDir": null
+    },
+    {
+      "name": "Slider",
+      "status": "in-progress",
+      "figma_page": "↳ Slider",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/slider.html",
+      "specDir": "components/Slider"
+    },
+    {
+      "name": "Spinner",
+      "status": "stable",
+      "figma_page": "Feedback",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/spinner.html",
+      "specDir": "components/Spinner"
+    },
+    {
+      "name": "SplitButton",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/split-button.html",
+      "specDir": null
+    },
+    {
+      "name": "StatusMessage",
+      "status": "in-progress",
+      "figma_page": "↳ Status Message",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/status-message.html",
+      "specDir": null
+    },
+    {
+      "name": "Stepper",
+      "status": "stable",
+      "figma_page": "Navigation",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/stepper.html",
+      "specDir": null
+    },
+    {
+      "name": "StepperProgress",
+      "status": "stable",
+      "figma_page": "Navigation",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": false,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Switch",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": false,
+      "hasSitePage": false,
+      "hasSpec": false,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Switcher",
+      "status": "stable",
+      "figma_page": "Forms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/switcher.html",
+      "specDir": "components/Switcher"
+    },
+    {
+      "name": "Table",
+      "status": "in-progress",
+      "figma_page": "Molecules",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/table.html",
+      "specDir": null
+    },
+    {
+      "name": "TableCell",
+      "status": "stable",
+      "figma_page": "Molecules",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/table-cell.html",
+      "specDir": null
+    },
+    {
+      "name": "Tabs",
+      "status": "stable",
+      "figma_page": "Navigation",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/tabs.html",
+      "specDir": "components/Tabs"
+    },
+    {
+      "name": "Tag/Outline",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Tag/Soft",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Tag/Solid",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "TagsGroup",
+      "status": "stable",
+      "figma_page": "Composite",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "TextArea",
+      "status": "stable",
+      "figma_page": "Forms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": "components/TextArea"
+    },
+    {
+      "name": "TimePicker",
+      "status": "in-progress",
+      "figma_page": "↳ Fields",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "ToggleGroupButton",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": "components/ToggleGroupButton",
+      "consumer_note": "Known as TGB in the codebase; the active segment lifts above the page background rather than changing hue."
+    },
+    {
+      "name": "Tooltip",
+      "status": "stable",
+      "figma_page": "Feedback",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": "preview/tooltip.html",
+      "specDir": "components/Tooltip"
+    },
+    {
+      "name": "Upload/Box",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Upload/File",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    },
+    {
+      "name": "Upload/Group",
+      "status": "stable",
+      "figma_page": "Atoms",
+      "hasStories": true,
+      "hasSitePage": true,
+      "hasSpec": true,
+      "sitePage": null,
+      "specDir": null
+    }
+  ]
+}

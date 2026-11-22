@@ -15,16 +15,16 @@ B2B financial design system, desktop-first, APCA contrast. Components are plain 
 - **Headings** — semantic elements `<h1>`–`<h6>` styled with `--ds-type-hN-*` tokens, never bare spans for heading levels (landmarks matter for accessibility).
 - **Surfaces** — states a pointer acts on use `--ds-pos-*` / fills; static indicators (status tile, legend swatch, dot, progress fill) use `--ds-surface-pos-accent` / `--ds-surface-neg-accent` / `--ds-surface-warn-accent` / `--ds-surface-neutral-*`.
 - **Amounts** — exact decimals with separators, never abbreviated (`1.2k` is a violation), never silently rounded; format through `Intl.NumberFormat` from raw numbers, not string literals.
-- **Statuses** — a text status is a **Tag**, never a Badge (Badge carries a number or a dot only). Status words verbatim from the dictionary — references/conventions.md, section "Status".
+- **Statuses** — a text status is a **Tag**, never a Badge (Badge carries a number or a dot only). Status words verbatim from the dictionary — conventions.md, section "Status".
 - **Errors** — always three parts: cause · next action · error code.
 - **Irreversible actions** — require a confirmation step; the confirm button is `variant="solid" intent="negative"` labeled `<Verb> <Object>`.
 - **Buttons** — main action of a screen/dialog is `solid` + `neutral` (black); brand red is the CTA only (at most one per screen, never inside a modal/form/table row); there is **no `warning` intent** on Button.
 
 ## Choosing components
 
-- Full catalog with when / not-for / pairs-with / exact props: **references/catalog-prompt.md**. Scenario matches `when:`; a `not-for:` veto overrides the match; `pairs-with:` names the neighbors. Only `stable` components go into output.
-- Full component APIs, theming (data-theme, theme-invert), locale dictionary: **references/conventions.md**.
-- Machine-readable manifest (status, source paths): **references/components.json**.
+- Full catalog with when / not-for / pairs-with / exact props: **catalog-prompt.md**. Scenario matches `when:`; a `not-for:` veto overrides the match; `pairs-with:` names the neighbors. Only `stable` components go into output.
+- Full component APIs, theming (data-theme, theme-invert), locale dictionary: **conventions.md**.
+- Machine-readable manifest (status, source paths): **components.json**.
 
 ## Output contract
 
