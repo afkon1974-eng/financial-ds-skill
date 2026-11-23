@@ -11,9 +11,9 @@
       "in-progress": 12,
       "planned": 3
     },
-    "preview_pages": 62,
+    "preview_pages": 64,
     "component_pages": 38,
-    "foundation_pages": 24
+    "foundation_pages": 26
   },
   "statuses": {
     "stable": "Построен, протестирован, готов к использованию в экранах",

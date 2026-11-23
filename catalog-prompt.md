@@ -495,7 +495,7 @@ src/components/TableCell/TableCell.tsx
 when: table-cell, column-header, data-row-cell, amount-cell, total-row, editable-cell, registry-table
 not-for: record-card, form-field, menu-list, table-container, sorting, virtualization
 pairs-with: Tag/Soft, LinkText, Checkbox, Radio, Tooltip, Pagination
-keywords: ячейка таблицы, table cell, заголовок колонки, column header, строка данных, реестр, итоговая строка, зебра, zebra, правка в таблице
+keywords: ячейка таблицы, table cell, заголовок колонки, column header, строка данных, реестр, итоговая строка, зебра, zebra, правка в таблице, таблица
 props: variant=[text|amount|element|swap|edit-text|edit-amount] header:boolean size=[sm|md|lg] align=[start|end|center] valign=[center|top|bottom] wrap:boolean total:boolean zebra:boolean selected:boolean hovered:boolean pressed:boolean focused:boolean error:boolean secondLevel:boolean borderLeft:boolean borderRight:boolean borderBottom:boolean caption:React.ReactNode suffix:React.ReactNode captionSuffix:React.ReactNode helpIcon:React.ReactNode actions:React.ReactNode icon:React.ReactNode value:string onValueChange:(next: string) => void placeholder:string readOnly:boolean colSpan:number rowSpan:number className:string children:React.ReactNode onClick:React.MouseEventHandler<HTMLTableCellElement>
 
 ### Tabs — stable
@@ -511,7 +511,7 @@ src/components/Tag/Tag.tsx
 when: outline-filter-tag, bordered-label, selectable-category, text-status
 not-for: numeric-count, notification-count, primary-action, navigation
 pairs-with: Tag/Solid, Tag/Soft, Chip/Outline
-keywords: тег обводка, outline tag, border tag, контурная метка
+keywords: тег обводка, outline tag, border tag, контурная метка, статус, текстовый статус
 props: variant=[fill|soft|outline] semantic=[neutral|brand|info|positive|warning|negative] size=[sm|md] active:boolean disabled:boolean highContrast:boolean iconLeft:React.ReactNode onClose:() => void children:React.ReactNode className:string onClick:React.MouseEventHandler<HTMLButtonElement> closeTabIndex:number onCloseMouseDown:React.MouseEventHandler<HTMLButtonElement> interactive:boolean
 
 ### Tag/Soft — stable
@@ -519,7 +519,7 @@ src/components/Tag/Tag.tsx
 when: soft-removable-label, muted-filter-tag, subtle-category, multi-select-soft, text-status, soft-status
 not-for: numeric-count, notification-count, primary-action, navigation
 pairs-with: Input, Chip/Soft, Badge/Soft, Tag/Solid
-keywords: мягкий тег, soft tag, метка приглушённая, категория тихая, фоновый тег
+keywords: мягкий тег, soft tag, метка приглушённая, категория тихая, фоновый тег, статус, текстовый статус
 props: variant=[fill|soft|outline] semantic=[neutral|brand|info|positive|warning|negative] size=[sm|md] active:boolean disabled:boolean highContrast:boolean iconLeft:React.ReactNode onClose:() => void children:React.ReactNode className:string onClick:React.MouseEventHandler<HTMLButtonElement> closeTabIndex:number onCloseMouseDown:React.MouseEventHandler<HTMLButtonElement> interactive:boolean
 
 ### Tag/Solid — stable
@@ -527,7 +527,7 @@ src/components/Tag/Tag.tsx
 when: removable-label, filter-tag, category-tag, multi-select-item, selected-item, text-status, status-label, compliance-status
 not-for: numeric-count, notification-count, primary-action, navigation
 pairs-with: Input, Chip, Badge, Tag/Soft
-keywords: тег, tag, ярлык, метка с крестиком, removable tag, фильтр выбранный, категория, удалить метку, мультиселект
+keywords: тег, tag, ярлык, метка с крестиком, removable tag, фильтр выбранный, категория, удалить метку, мультиселект, статус
 props: variant=[fill|soft|outline] semantic=[neutral|brand|info|positive|warning|negative] size=[sm|md] active:boolean disabled:boolean highContrast:boolean iconLeft:React.ReactNode onClose:() => void children:React.ReactNode className:string onClick:React.MouseEventHandler<HTMLButtonElement> closeTabIndex:number onCloseMouseDown:React.MouseEventHandler<HTMLButtonElement> interactive:boolean
 
 ### TagsGroup — stable
@@ -607,7 +607,7 @@ src/components/ActionToast/ActionToast.tsx
 when: bulk-actions-bar, selection-toolbar, table-selection-actions, floating-action-bar
 not-for: notification, single-action, row-actions, navigation, status-display, confirmation-dialog
 pairs-with: TableCell, Checkbox, DropdownMenu, Notification
-keywords: панель действий, массовые действия, выбрано строк, снять выделение, bulk actions, action toast, selection bar
+keywords: панель действий, массовые действия, выбрано строк, снять выделение, bulk actions, action toast, selection bar, тост, всплывающий тост, уведомление о действии
 props: open:boolean count:ReactNode actions:ActionToastAction[] moreActions:ActionToastAction[] moreLabel:string onClear:() => void clearLabel:string type=[text|icon] size=[sm|md] loadingAction:string floating:boolean offset=[16|24|32|40|48|56] onExited:() => void
 
 ### StatusMessage — in-progress
